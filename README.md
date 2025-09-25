@@ -32,6 +32,7 @@ Sistema informático desarrollado en **Java (NetBeans)** bajo el patrón **Model
 ---
 
 ## 📂 Estructura del Proyecto
+```text
 GestionInventarioMass/
 ├── src/
 │ ├── conexion/ # Manejo de conexión a la BD
@@ -67,10 +68,12 @@ Como equipo estamos trabajando únicamente en la rama **master**, por lo tanto:
 2. Realiza tus modificaciones en el código.
 
 3. Agrega y confirma tus cambios:
+   ```bash
    git add .
    git commit -m "Descripción de los cambios"
    
-4. Envía tus cambios al repositorio:
+5. Envía tus cambios al repositorio:
+   ```bash
    git push origin master
 
    
