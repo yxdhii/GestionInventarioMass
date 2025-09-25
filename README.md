@@ -43,6 +43,7 @@ GestionInventarioMass/
 ├── build.xml
 ├── manifest.mf
 └── README.md
+```
 
 ## 📝 Próximas Funcionalidades
 - ✅ Registro de productos  
