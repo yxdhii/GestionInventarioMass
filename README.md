@@ -59,26 +59,47 @@ _Aquí se agregarán imágenes de la aplicación una vez avanzadas las vistas._
 
 ---
 
-## 🤝 Contribución
-Si eres parte del equipo:  
-Como equipo estamos trabajando únicamente en la rama **master**, por lo tanto:
+## 🤝 Contribución y flujo de trabajo
 
-1. Antes de hacer cambios, asegúrate de tener la última versión del proyecto:  
-   ```bash
-   git pull origin master
-2. Realiza tus modificaciones en el código.
+Todo el equipo trabaja en la rama **main**. Para mantener el proyecto sincronizado y evitar conflictos, sigan estos pasos:
 
-3. Agrega y confirma tus cambios:
-   ```bash
-   git add .
-   git commit -m "Descripción de los cambios"
-   
-5. Envía tus cambios al repositorio:
-   ```bash
-   git push origin master
+### 1️⃣ Clonar el repositorio
+Si es la primera vez que trabajas con el proyecto, clona el repo desde GitHub:  
+```bash
+git clone https://github.com/yxdhii/GestionInventarioMass.git
+cd GestionInventarioMass
+```
+2️⃣ Actualizar tu copia local
+Antes de empezar a trabajar cada día o antes de hacer cambios:
+```bash
+git pull origin main
+```
+3️⃣ Hacer cambios
+Trabaja normalmente en NetBeans (o tu editor). Crea clases, modifica paquetes, agrega recursos, etc.
+
+4️⃣ Guardar los cambios en Git
+Cuando termines cambios importantes, guarda todo en Git:
+```bash
+git add .
+git commit -m "Descripción clara de los cambios"
+```
+5️⃣ Subir los cambios a GitHub
+Después de confirmar los cambios, envíalos al repositorio remoto:
+```bash
+git push origin main
+```
+
+⚠️ Recomendaciones
+Siempre hacer git pull antes de empezar a trabajar para evitar conflictos.
+
+Usar mensajes claros en los commits para saber qué se cambió.
+
+No es necesario crear ramas por ahora; todos trabajan directamente en main.
 
    
 ⚠️ Importante: siempre hacer git pull antes de empezar a trabajar para evitar conflictos.
 
+
+---
 ## 📄 Licencia
 Proyecto académico Grupo 01 – Universidad Tecnológica del Perú (UTP).  
